@@ -198,9 +198,9 @@ footer {
 /* sidebar */
 
 .sidebar {
-  float: right;
+  float: left;
   width: 100%;
-  max-width: 270px;
+  max-width: 280px;
 
   /* Box-model */
   padding: 30px;
@@ -211,6 +211,9 @@ footer {
 
   /* Visual */
   border: 1px solid #ddd;
+}
+.carousel{
+  margin-bottom: 142%;
 }
 
 h3,
@@ -232,7 +235,7 @@ h3,
   /* Box-model */
   float: left;
   width: 62px;
-  height: 62px;
+  height: 42px;
 
   /* Positioning */
   margin-top: 8px;
@@ -256,7 +259,7 @@ main {
 .main-section {
   float: left;
   width: 100%;
-  max-width: 650px;
+  max-width: 625px;
 
   /* Box-model */
   padding: 30px;
@@ -277,7 +280,7 @@ main {
   float: left;
 
   /* Box-model */
-  width: 274px;
+  width: 74px;
   margin: 20px 0 25px;
   overflow: auto;
 }
@@ -347,7 +350,7 @@ input[type=email],
 textarea {
   /* Box-model */
   display: block;
-  width: 100%;
+  width: 60%;
 }
 
 input[type=text],
